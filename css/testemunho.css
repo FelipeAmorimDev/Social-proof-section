@@ -1,0 +1,63 @@
+.testemunho{
+  display: flex;
+  gap: 20px;
+ 
+ }
+.testemunho-item{
+  padding: 30px;
+  background-color:#502050;
+  border-radius: 4px;
+  color: hsl(300, 24%, 96%);
+  align-content: center;
+}
+
+.testemunho-item-header{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 20px;
+}
+.testemunho-item-header img{
+  border-radius: 50%;
+}
+.testemunho-nome{
+  font-weight: normal;
+  padding-bottom: 10px;
+  
+}
+.testemunho-tipo{
+  color:hsl(333, 80%, 67%);
+}
+.testemunho-item p{
+ max-width: 30ch;
+ line-height: 1.33;
+ font-size: 1.2rem;
+}
+
+.colton{
+  align-self: flex-start;
+
+}
+.irene{
+  align-self: center;
+}
+.anne{
+  align-self: flex-end;
+}
+
+@media (max-width:600px){
+
+ 
+  .testemunho{
+    flex-direction: column;
+  }
+  .testemunho-item-header{
+    grid-template-columns: 100px 1fr;
+  }
+  .testemunho-item p{
+    max-width: 60ch;
+   
+   }
+   
+  
+}
+
